@@ -18,6 +18,8 @@
     "android/gradle.properties",
     "android/CMakeLists.txt",
     "android/src",
+    "android/build",
+    "android/**",
     "ios/**/*.h",
     "ios/**/*.m",
     "ios/**/*.mm",
