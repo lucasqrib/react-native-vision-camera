@@ -1688,37 +1688,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@citizenwatchamerica/react-native-vision-camera@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@citizenwatchamerica/react-native-vision-camera@workspace:."
-  dependencies:
-    "@expo/config-plugins": "npm:^7.2.5"
-    "@jamesacarr/eslint-formatter-github-actions": "npm:^0.2.0"
-    "@react-native/eslint-config": "npm:^0.72.2"
-    "@react-native/typescript-config": "npm:^0.73.0"
-    "@release-it/conventional-changelog": "npm:^7.0.0"
-    "@types/react": "npm:^18.2.19"
-    "@types/react-native": "npm:^0.72.2"
-    eslint: "npm:^8.46.0"
-    eslint-plugin-prettier: "npm:^5.0.0"
-    pod-install: "npm:^0.1.38"
-    prettier: "npm:^3.0.1"
-    react: "npm:^18.2.0"
-    react-native: "npm:^0.72.3"
-    react-native-builder-bob: "npm:^0.21.3"
-    react-native-worklets-core: "npm:^0.2.0"
-    release-it: "npm:^16.1.3"
-    typescript: "npm:^5.1.6"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-worklets-core: "*"
-  peerDependenciesMeta:
-    react-native-worklets-core:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@eslint-community/eslint-utils@npm:^4.2.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -9125,6 +9094,37 @@ __metadata:
   checksum: 46f026e1024814430fe7b68b5da3cf5d6f38aa72fcd1a351c2bb5590795544a8254a3cb07f47d114f253cadf9f85961901d66e664a147f8f1562a87421001089
   languageName: node
   linkType: hard
+
+"react-native-vision-camera@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-native-vision-camera@workspace:."
+  dependencies:
+    "@expo/config-plugins": "npm:^7.2.5"
+    "@jamesacarr/eslint-formatter-github-actions": "npm:^0.2.0"
+    "@react-native/eslint-config": "npm:^0.72.2"
+    "@react-native/typescript-config": "npm:^0.73.0"
+    "@release-it/conventional-changelog": "npm:^7.0.0"
+    "@types/react": "npm:^18.2.19"
+    "@types/react-native": "npm:^0.72.2"
+    eslint: "npm:^8.46.0"
+    eslint-plugin-prettier: "npm:^5.0.0"
+    pod-install: "npm:^0.1.38"
+    prettier: "npm:^3.0.1"
+    react: "npm:^18.2.0"
+    react-native: "npm:^0.72.3"
+    react-native-builder-bob: "npm:^0.21.3"
+    react-native-worklets-core: "npm:^0.2.0"
+    release-it: "npm:^16.1.3"
+    typescript: "npm:^5.1.6"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-worklets-core: "*"
+  peerDependenciesMeta:
+    react-native-worklets-core:
+      optional: true
+  languageName: unknown
+  linkType: soft
 
 "react-native-worklets-core@npm:^0.2.0":
   version: 0.2.4

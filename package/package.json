@@ -1,5 +1,5 @@
 {
-  "name": "@citizenwatchamerica/react-native-vision-camera",
+  "name": "react-native-vision-camera",
   "version": "3.7.0",
   "description": "A powerful, high-performance React Native Camera library.",
   "main": "lib/commonjs/index",
@@ -26,8 +26,7 @@
     "ios/VisionCamera.xcodeproj/project.pbxproj",
     "app.plugin.js",
     "VisionCamera.podspec",
-    "README.md",
-    "package.json"
+    "README.md"
   ],
   "scripts": {
     "typescript": "tsc --noEmit",
