@@ -47,9 +47,6 @@ import com.mrousavy.camera.types.RecordVideoOptions
 import com.mrousavy.camera.types.Torch
 import com.mrousavy.camera.types.VideoStabilizationMode
 import com.mrousavy.camera.utils.ImageFormatUtils
-import java.io.Closeable
-import java.util.concurrent.CancellationException
-import kotlin.coroutines.CoroutineContext
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
